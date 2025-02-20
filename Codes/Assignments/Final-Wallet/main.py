@@ -7,7 +7,7 @@ from transactions import view_transactions
 from profile import update_profile
 
 
-def fancy_logout():
+def new_logout():
     """Displays a smooth logout animation."""
     print("\nLogging out", end="")
     for _ in range(3):
@@ -46,7 +46,7 @@ def main():
                     elif option == "6":
                         update_profile(user)
                     elif option == "7":
-                        fancy_logout()
+                        new_logout()
                         break
         elif choice == "3":
             print("\n👋 Exiting... Have a great day!")

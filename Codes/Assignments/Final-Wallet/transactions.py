@@ -7,3 +7,5 @@ def view_transactions(username):
     print("--------------------------------------")
     for txn in users[username].get("transactions", []):
         print(f"{txn['date']} | {txn['type']} | ${txn['amount']} | ${txn['balance']}")
+
+
