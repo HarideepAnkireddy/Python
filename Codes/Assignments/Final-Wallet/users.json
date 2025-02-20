@@ -1,0 +1,11 @@
+{
+    "hari": {
+        "password": "12345",
+        "balance": 720.0,
+        "profile": {
+            "email": "harideep.example.com",
+            "phone": "12345678"
+        },
+        "transactions": []
+    }
+}
